@@ -32,7 +32,7 @@ function ExpenseForm(props) {
       amount: enteredamount,
       date: entereddate,
     };
-    localStorage.setItem("expensedata", JSON.stringify([expensedata]));
+    localStorage.setItem("expensedata", JSON.stringify(expensedata));
   
     let existingData = localStorage.getItem("storedata");
     // console.log(existingData);

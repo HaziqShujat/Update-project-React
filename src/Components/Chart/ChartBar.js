@@ -10,10 +10,10 @@ function ChartBar(props) {
 
   return (
     <div className="h-auto flex  w-4 rounded-lg flex-col align-middle text-white">
-      <div className="   border-4 rounded-lg border-l h-56 bg-white  flex flex-col justify-end">
+      <div className="   border-1 rounded-lg  h-56 bg-white  flex flex-col justify-end">
         <div
-          className=" bg-purple-900  rounded-lg  w-full md:transition-all"
-          style={{ height: BarFillHeight }}
+          className=" bg-purple-900  rounded-b-lg  "
+          style={{ height: BarFillHeight  }}
         ></div>{" "}
         {/* fill */}
       </div>
